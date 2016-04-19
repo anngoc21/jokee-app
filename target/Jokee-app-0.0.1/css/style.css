@@ -1,0 +1,152 @@
+html{
+	height: 100;
+	min-height: 100%;
+}
+
+body{
+	height: inherit;
+	min-height: inherit;
+}
+
+.main-paragraph{
+	text-align: left;
+	font-size: 15px;
+}
+
+#about{
+	padding-bottom: 100px;
+}
+
+.wrapper-footer{
+	padding: 0px;
+}
+
+.wrapper-main-banner{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.btn-primary{
+	font-size: 16px;
+	padding: 15px 0 15px 0;
+	width: 20%;
+	border-radius: 0;
+}
+
+.btn-info{
+	padding: 15px 0 15px 0;
+	background-color: #3E7FDD;
+	border-color: #3E7FDD;
+	font-size: 16px;
+	width: 20%;
+	border-radius: 0;
+}
+
+.btn-info:hover{
+	background-color: #3E7FDD;
+	border-color: #3E7FDD;
+}
+
+.btn-info:focus{
+	background-color: #3E7FDD;
+	border-color: #3E7FDD;
+}
+
+.pre-footer-content{
+	color: #BDBDBD;
+	font-size: 15px;
+}
+
+.post-footer-content{
+	font-size: 15px;
+}
+
+.first-hr{
+	border-top: 1px solid #CCCCCC;
+}
+
+.secondary-hr{
+	border-top: 1px solid #ECE8E8;
+}
+
+.button-contain{
+	padding-top: 40px;
+}
+
+
+.navbar-fixed-top + section{
+	padding-top: 70px;
+}
+.appear{
+	visibility: hidden;
+}
+.animated{
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	-ms-animation-duration:1s;
+	-o-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.h1{font-size: 42px}
+
+.device {
+	border-radius: 6px !important;
+	box-shadow: -15px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.device header{
+	border-radius: 5px 5px 0 0;
+}
+.device.phone{
+	border-radius: 15px !important;
+}
+.device.phone header{
+	border-radius: 14px 14px 0 0;
+}
+.device.phone footer{
+	border-radius:0 0 14px 14px;
+}
+.navbar{
+	border: none;
+	-webkit-transition: padding ease-in-out 0.2s;
+    transition: padding ease-in-out 0.2s;
+}
+.navbar.affix-top{
+	padding: 10px 0;
+}
+.navbar-nav > li > a{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.navbar-nav .dropdown-submenu .dropdown-menu{
+	left: 0;
+	top: 100%;
+	border: none;
+	background-color: #f5f5f5;
+	min-width: 220px;
+}
+
+#responsive{
+	background: url(../images/render-1.png) #25313e center top no-repeat;
+	background-size: cover;
+}
+
+#responsive > div{
+	background-color: #25313e;
+	background-color: rgba(37, 49, 62, 0.95)
+}
+
+/*phone*/
+@media (max-width: 767px) {
+	.navbar-fixed-top + section{
+		padding-top: 50px;
+	}
+	.navbar.affix-top{
+		padding: 0;
+	}
+	.navbar-brand{
+		float: left !important;
+	}
+	.h1{font-size: 20px}
+}
